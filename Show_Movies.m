@@ -40,7 +40,7 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     int ratiing =[_jetsmovie rate];
-    HCSStarRatingView *starRatingView = [[HCSStarRatingView alloc] initWithFrame:CGRectMake(35, 506,233, 21)];
+    HCSStarRatingView *starRatingView = [[HCSStarRatingView alloc] initWithFrame:CGRectMake(50, 596,284, 48)];
     starRatingView.maximumValue = 10;
     starRatingView.minimumValue = 0;
     starRatingView.value = ratiing;
